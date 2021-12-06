@@ -56,3 +56,18 @@
     
 
 }
+.p-about-section {
+    font-size: 1.25rem;
+    font-weight: 300;
+    position: absolute;
+    left: 560px ;
+    margin: 10px 50px 10px 0;
+}
+.span-about-section {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 264px;
+    padding: 5px 0 5px 0;
+}

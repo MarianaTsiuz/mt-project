@@ -1,73 +1,99 @@
-
-.intro-text-common {
+.intro__bg-img{
+    height: 937px; 
+    background-image: url(images/intro-bg.jpg)
+}
+.intro__common-text{
    
-    color: #fff;
+    color:#FFFFFF;
     margin: 0;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
     letter-spacing: 2px;
 }
-.intro-text-1 {
+.intro__h1-text{
     font-weight: 600;
     font-size: 70px;
-    
 }
-.intro-text-2 {
+.intro__p-text{
     font-weight: 500;
     font-size: 30px;  
 }
-
-.text-menu{
-    color: #fff;
+.intro__text-menu{
+    color:#FFFFFF;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;  
     display: flex;
-    position: absolute;
     padding: 35px 0 0 950px;
-
-  
 }
-.brand-logo {
-    position: absolute;
+.intro__brand-logo{
     display: inline-block;
    padding: 40px 0 0 397px;
     line-height: inherit;
     white-space: nowrap;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 1.6rem;
     font-weight: 600;
 }
-.section-about {
+.about{
     background-color:F5F5F5 ;
     height: 784px;
 }
-.box {
+.about__box{
     position: relative;
     top: 66px;
     left: 396px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     height: 654px;
     width: 1110px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
-    
-
 }
-.p-about-section {
-    font-size: 1.25rem;
+.about__box-part-size{
+    width: 50%;
+    display: inline-block;
+}
+.about__info-p{
+    position: relative; 
+    font-size: 21px;
     font-weight: 300;
-    position: absolute;
     left: 560px ;
-    margin: 10px 50px 10px 0;
+    padding: 0px 70px 10px 0;
 }
-.span-about-section {
+.about__info-h5{
+    font-size: 35px; 
+    position: relative; 
+    color: #1E1E1E;
+    font-weight: 700; 
+    line-height: 1.2; 
+    top: 70px; 
+    left: 560px;
+    padding-bottom: 70px;
+    text-decoration: underline #0078FF;
+    text-underline-position: under;
+}
+.about__skills-p{
+    position: relative;
     font-weight: 600;
-    color: #1e1e1e;
-    font-size: 1.1rem;
-    position: absolute;
+    color: #1E1E1E;
+    font-size: 18px;
     left: 264px;
-    padding: 5px 0 5px 0;
+}
+.about__skills-p1{
+ top: 68px;   
+}
+.about__skills-p2{
+    top: 112px;;
+}
+.about__img{
+    position: absolute;
+    top: 70px;
+    left: 58px;
+    border-radius: 6px;
+}
+.about__skills-progress{
+height: 15px;
+background-color: #0078FF;
+margin: 5px 40px 5px 60px;
 }
